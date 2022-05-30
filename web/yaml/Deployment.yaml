@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: apache
-          image: httpd:2.4
+          image: php:7.2-apache
           ports:
             - containerPort: 80
           volumeMounts:
