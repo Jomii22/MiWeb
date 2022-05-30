@@ -1,0 +1,178 @@
+body {
+    background-color: white;
+}
+
+header, footer {
+    background-color: blue;
+}
+
+#menu ul{
+    list-style: none;
+    display: inline-block;
+ }
+
+ #menu ul li{
+     float: left;
+     padding-right: 50px;
+ }
+
+ #menu ul li a {
+     text-decoration: none;
+     color: white;
+     font-size: 30px;
+     font-family: monospace;
+ }
+
+ #menu ul li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+ #menu {
+     justify-content: center;
+     text-align: center;
+ }
+
+ #titulo {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+
+ #titulo h1 {
+     background-color: aqua;
+     border-radius: 20px;
+ }
+
+ #titulo h2 {
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+#posttitulo {
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ferrari, #mercedes, #mc, #alfa, #renault, #am {
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+span {
+    display: flex;
+    border-collapse: 20px;
+}
+
+span div h1, span div p {
+    text-align: center;
+    align-items: center;
+}
+
+span div img{
+    display:block;
+    margin:auto;
+}
+
+#ferrari {
+    color: red;
+}
+
+#mercedes {
+    color: turquoise;
+}
+
+#mc {
+    color: orange;
+}
+
+#alfa {
+    color: darkred;
+}
+
+#renault {
+    color: yellow;
+}
+
+#am {
+    color: green;
+}
+
+h1 img {
+    margin-left: 20px;
+}
+
+#ferrari div {
+    color: black;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#mercedes div {
+    color: black;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#mc div {
+    color: black;
+    border: 2px solid orange;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#alfa div {
+    color: black;
+    border: 2px solid darkred;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#renault div {
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#am div {
+    color: black;
+    border: 2px solid green;
+    border-radius: 50px;
+    background-color: white;
+}
+
+form input:required {
+    border: 2px solid red;
+}
+
+fieldset {
+    background-color: bisque;
+}
+
+legend {
+    border: 2px solid black;
+    background-color: white;
+}
+
+#submenu {
+    font-size: 20px;
+}
+
+h3 {
+    background-color: red;
+    text-align: center;
+}
+
+#tablamuestra {
+    text-align: center;
+    border: 5px solid black;
+}
