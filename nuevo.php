@@ -90,9 +90,9 @@
 
 <?php
 error_reporting(0);
-$servidor="mysqlmiapp1.mysql.database.azure.com:3306";
-$usuario="jomi";
-$contra="JorgeMD0211";
+$servidor="mysqlapp1.mysql.database.azure.com:3306";
+$usuario="tfg";
+$contra="Alumno123";
 $base="coches";
 $usuarioS= $_SESSION["usuario"];
 $contraS = $_SESSION["contra"];
