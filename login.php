@@ -5,9 +5,9 @@
     $contraS = $_GET["contra"];
     $_SESSION["contra"] = $contraS;
     error_reporting(0);
-    $servidor="mysqlmiapp1.mysql.database.azure.com:3306";
-    $usuario="jomi";
-    $contra="JorgeMD0211";
+    $servidor="mysqlapp1.mysql.database.azure.com:3306";
+    $usuario="tfg";
+    $contra="Alumno123";
     $base="coches";
     $sql1= "SELECT ID, Nombre, Apellidos FROM usuarios WHERE Usuario LIKE '$usuarioS' AND Contra LIKE '$contraS'";
     try {
