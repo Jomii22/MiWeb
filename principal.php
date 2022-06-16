@@ -5,9 +5,9 @@
 <?php
     $usuarioS = $_SESSION["usuario"];
     error_reporting(0);
-    $servidor="mysqlmiapp1.mysql.database.azure.com:3306";
-    $usuario="jomi";
-    $contra="JorgeMD0211";
+    $servidor="mysqlapp1.mysql.database.azure.com:3306";
+    $usuario="tfg";
+    $contra="Alumno123";
     $base="coches";
     $sql1= "SELECT ID, Nombre, Apellidos FROM usuarios WHERE Usuario LIKE '$usuarioS'";
     $sql2= "SELECT DISTINCT c.Marca, c.Modelo, c.Foto, i.ID_Coche, i.ID_Usuario FROM coches c, inventario i, usuarios u WHERE i.ID_Usuario = (SELECT ID FROM usuarios WHERE Nombre LIKE '$usuarioS') and c.ID=i.ID_Coche";
