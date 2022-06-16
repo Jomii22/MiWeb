@@ -86,10 +86,10 @@
 <?php
 error_reporting(0);
 session_destroy();
-$servidor="mysqlmiapp1.mysql.database.azure.com:3306";
-$usuario="jomi";
-$contra="JorgeMD0211";
-$base="coches";
+    $servidor="mysqlapp1.mysql.database.azure.com:3306";
+    $usuario="tfg";
+    $contra="Alumno123";
+    $base="coches";
     $sql= "INSERT INTO usuarios (Nombre, Apellidos, Correo, Usuario, Contra) VALUES (:Nombre, :Apellidos, :Correo, :Usuario, :Contra)";
 
     try {
